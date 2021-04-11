@@ -1,0 +1,36 @@
+.close-card-item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.close-card-item .background {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.close-card-item .background:hover {
+    width: 105px;
+    height: 105px;
+    border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(150, 134, 111, 0.5);
+    transition: transform 0.2s;
+}
+
+.close-card-item .background:active {
+    transform: rotateY(100deg)
+}
+
+.open-card-item {
+    width: 100px;
+    height: 100px;
+}
+
+.open-card-item .background {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgba(150, 134, 111, 0.5), -1px -1px rgba(150, 134, 111, 0.5), 1px -1px rgba(150, 134, 111, 0.5), -1px 1px rgba(150, 134, 111, 0.5);
+
+}

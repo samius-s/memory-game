@@ -1,0 +1,16 @@
+.shop-header {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.shop-header .logo {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    padding-left: 1rem;
+}

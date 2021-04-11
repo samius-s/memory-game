@@ -1,0 +1,14 @@
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px 10px;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.board .card-item {
+    align-self: center;
+    justify-self: center;
+}
