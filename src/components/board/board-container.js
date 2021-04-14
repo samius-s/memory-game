@@ -19,9 +19,11 @@ class BoardContainer extends Component {
 
         if (chosenCards.length === 2) {
             if (chosenCards[0].img === chosenCards[1].img) {
-                onGuessPair()
+                setTimeout(() => onGuessPair(), 10)
+                // onGuessPair()
             } else if (!backdrop) {
-                onBackdrop()
+                setTimeout(() => onBackdrop(), 10)
+                // onBackdrop()
             } else {
                 setTimeout(() => onCloseCards(), 500)
             }
